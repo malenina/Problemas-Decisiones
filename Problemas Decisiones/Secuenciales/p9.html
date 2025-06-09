@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Problema 3.9 - Póliza de Seguro</title>
+  <link rel="stylesheet" href="../styles/estilo.css">
+</head>
+<body>
+  <h1>Problema 3.9 - Costo de póliza</h1>
+  <label>Tipo de póliza:</label>
+  <select id="tipo">
+    <option value="A">Cobertura Amplia (A)</option>
+    <option value="B">Daños a Terceros (B)</option>
+  </select><br>
+
+  <label>¿Bebe alcohol?</label>
+  <select id="alcohol">
+    <option value="no">No</option>
+    <option value="si">Sí</option>
+  </select><br>
+
+  <label>¿Usa lentes?</label>
+  <select id="lentes">
+    <option value="no">No</option>
+    <option value="si">Sí</option>
+  </select><br>
+
+  <label>¿Tiene alguna enfermedad?</label>
+  <select id="enfermedad">
+    <option value="no">No</option>
+    <option value="si">Sí</option>
+  </select><br>
+
+  <input type="number" id="edad" placeholder="Edad"><br>
+  <button onclick="calcularPoliza()">Calcular costo</button>
+  <p id="resultado"></p>
+  <a href="../index.html">inicio</a>
+  <br>
+  <a href="../secuenciales/p8.html">Anterior</a>
+  <br>
+  <a href="../secuenciales/p10.html">Siguiente</a>
+
+  <script src="../scripts/funciones.js"></script>
+</body>
+</html>
